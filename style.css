@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courgette&display=swap');
+body{
+    background-size:100%;
+    background-image: url("./imagenes/Retro\ Smoke\ and\ Round\ Light\ Desktop\ Wallpapers.png");
+}
+*{
+    text-decoration: none;
+    font-family: "Archivo Black", sans-serif;
+}
+.navegator{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:40px auto;
+    
+}
+.menuP{
+    width: 90%;
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    border: solid;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.navegator a{
+    color: aliceblue;
+    font-size: 10px;
+    height: 10px;
+}
+.firstP{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: "Courgette", cursive;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+   
+
+}
+.perfil{
+    width: auto;
+    box-sizing: content-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:last baseline;
+    
+    border: solid 1px black;
+    padding: 5px;
+    box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.TextBanner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    
+}
+
+.ImgClase img{
+    width: 350px; 
+    border-radius: 10px;
+    border: none;
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
+    background-image: url("/imagenes/al\ revez.png");
+    transition: all 0.5s;
+    flex-grow: 1;
+    object-fit: cover;
+    transform: scale(1)
+    
+}
+.ImgClase img:hover{
+    transition: all 0.5s;
+    filter: blur(1);
+    margin: auto;
+    object-fit: cover;
+    background-image: url("/imagenes/video.gif");
+    background-size: cover;
+        filter: drop-shadow(
+        0 0 30px rgba(0, 0, 0, 60)
+        );
+        box-sizing:content-box;
+        transform: scale(1.1)
+   
+}
+
+/*AQUI BOTON HERE ME*/
+
+.button {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background-color: #00000062;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -4px;
+    top: -1px;
+    margin: auto;
+    width: 128px;
+    height: 48px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #093839 0%, #40c9ff 100% );
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .button::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #093839 0%, #00dbde 100% );
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+  }
+  
+  .button:hover::after {
+    filter: blur(30px);
+  }
+  
+  .button:hover::before {
+    transform: rotate(-180deg);
+  }
+  
+  .button:active::before {
+    scale: 0.7;
+  }
+  
+  /*INSTAGRAM/
+
+  
