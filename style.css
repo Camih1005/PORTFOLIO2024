@@ -83,15 +83,15 @@ body{
     transition: all 0.5s;
     flex-grow: 1;
     object-fit: cover;
-    transform: scale(1)
-    
+    transform: scale(1);
 }
+
 .ImgClase img:hover{
     transition: all 0.5s;
     filter: blur(1);
     margin: auto;
     object-fit: cover;
-    background-image: url("/imagenes/video.gif");
+    background-image: url("./imagenes/video.gif") ;
     background-size: cover;
         filter: drop-shadow(
         0 0 30px rgba(0, 0, 0, 60)
