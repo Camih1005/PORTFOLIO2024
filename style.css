@@ -6,7 +6,7 @@ body{
     background: linear-gradient(135deg,rgb(13, 255, 0),rgb(25, 25, 25),black,black);
     background-size: 400% 400%;
     animation: gradient 30s infinite;
-    backdrop-filter: blur(40px);
+    /* backdrop-filter: blur(40px); */
     
 
 
@@ -55,14 +55,14 @@ body{
 .wrapper {
     --font-color-dark: #ffffff;
     --font-color-light: #000000;
-    --bg-color: #212121;
-    --main-color: #02ff63f7;
+    --bg-color: #2121211f;
+    --main-color: #008132f7;
     --secondary-color: #0c34fe90;
     position: relative;
     width: 80%;
     height: 36px;
     background-color: var(--bg-color);
-    border: 2px solid rgba(128, 128, 128, 0.308);
+    border: 2px solid rgba(0, 0, 0, 0.086);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -121,7 +121,7 @@ body{
   }
   
   .span {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
   }
   
