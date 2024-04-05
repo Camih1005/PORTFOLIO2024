@@ -8,10 +8,12 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />;
+ ;
     <title>Document</title>
 </head>
-<body>
-    
+
+<body >
+  <div id="punto"></div>
     <section class="banner ">
        
         <header class="perfil animate__animated animate__slideInLeft">
@@ -103,28 +105,30 @@
         </section>
     </header>
     <header class="menuP animate__animated animate__slideInRight">
+      
     <section class="navegator animate__animated animate__slideInRight">
-        <div class="wrapper animate__animated animate__slideInRight">
+        <div class="wrapper ">
             <div class="option">
-              <input checked="" value="inicio" name="btn" type="radio" class="input" />
+              <input id="Btinicio"  value="inicio" name="btn" type="radio" class="input" />
               <div class="btn">
                 <span class="span">Inicio</span>
               </div>
             </div>
             <div class="option">
-              <input value="Sobre mi" name="btn" type="radio" class="input" />
+              <input id="btSobremi"
+               value="Sobre mi" name="btn" type="radio" class="input" />
               <div class="btn">
-                <span class="span">Sobre mi</span>
+                <span class="span " >Sobre mi</span>
               </div>
             </div>
             <div class="option">
-              <input value="Proyectos" name="btn" type="radio" class="input" />
+              <input id="proyect" value="Proyectos" name="btn" type="radio" class="input" />
               <div class="btn">
                 <span class="span">Proyectos</span>
               </div>
             </div>
             <div class="option">
-                <input checked="" value="Estudios" name="btn" type="radio" class="input" />
+                <input value="Estudios" name="btn" type="radio" class="input" />
                 <div class="btn">
                   <span class="span">Estudios</span>
                 </div>
@@ -144,13 +148,25 @@
             </div>
           </div>
           
-      
+      <div class="seccionTarjeta InicPort" id="Tajetas">
+        <h1 class="h1I">Bienvenido a mi portafolio</h1>
+        <section class="sectionInicioBu">
+        
+        <div class="tar1">
+          <h1 class="h1I num1">Soy un desarrollador colombiano de 23 años con 1 año y medio de experiencia en programación. <br> Mi portafolio muestra proyectos significativos que demuestran mi capacidad para crear soluciones innovadoras y eficientes.
+          </h1>
+        </div>
+        <div class="tar2">
+          <img src="./imagenes/foto grupo.jpg" alt="">
+        </div>
+      </section>
+      </div>
     
     </section>
  
 </header>
 
-    </section>
-    
+   
+<script src="./view/tarjetas.js"></script>  
 </body>
 </html>
